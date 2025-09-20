@@ -1,0 +1,36 @@
+.md-content ul,
+.md-content ol {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-left: 0 !important;
+  line-height: 1 !important;
+}
+
+.md-content li,
+.md-content li p {
+  list-style-type: none;
+  margin-top: 0 !important;
+  margin-bottom: 1em !important;
+  line-height: 1 !important;
+}
+
+.md-content dl {
+  margin-top: 1em !important;
+  margin-bottom: 0 !important;
+  padding-left: 0 !important;
+}
+
+.md-content dt {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+  font-weight: initial;
+}
+
+.md-content dd {
+  padding-left: 1em !important;
+  margin-left: 0 !important;
+  margin-bottom: 1em !important;
+  padding-bottom: 0 !important;
+}
