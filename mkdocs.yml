@@ -1,0 +1,44 @@
+site_name: Wiki
+theme:
+  name: material
+  features:
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+extra_css:
+  - css/overrides.css
+
+markdown_extensions:
+  - def_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.snippets
+
+nav:
+  - Introduction: index.md
+  - Guides:
+    - 🧭 Wiki Navigation: guides/wiki_navigation.md
+    - 📝 Documentation Notation: guides/documentation_notation.md
+  - Modules:
+    - 🧩 API: 
+      - ⚙️ Functions: modules/api/functions.md
+    - 🧩 Core: 
+      - TODO: modules/core/index.md
+    - 🧩 Entity: 
+      - TODO: modules/entity/index.md
+    - 🧩 Math:
+      - 🌀 Data Dimension: modules/math/data_dimension.md
+    - 🧩 Player:
+      - 👤 Player Data: modules/player/player_data.md
+      - 🗡️ Custom Item: modules/player/custom_item.md
+      - 🛡️ Custom Armor: modules/player/custom_armor.md

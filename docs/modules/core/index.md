@@ -1,0 +1,1 @@
+The core module serves as the foundation for the initialization of all other modules, particularly the API (e.g., create the `uf_api:run` storage as the memory system). It also features uninstallation methods and framework versioning, which other datapacks use to verify the presence of a compatible framework version.
